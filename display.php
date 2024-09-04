@@ -58,7 +58,7 @@ include "connection.php"
                     <td>' . $password . '</td>
 
                     <td>
-             <a href="update.php" class="btn btn-primary">Update</a>
+             <a href="update.php? updateid=' . $id . '" class="btn btn-primary">Update</a>
              <a href="delete.php? deleteid=' . $id . '" class="btn btn-danger">Delete</a>
               </td>
 
