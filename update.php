@@ -26,8 +26,8 @@ if (isset($_POST['submit'])) {
     $result = mysqli_query($con, $sql);
 
     if ($result) {
-        echo "updated succsfully";
-        // header('location:display.php');
+        // echo "updated succsfully";
+        header('location:display.php');
     } else {
         die(mysqli_error($con));
     }
